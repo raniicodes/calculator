@@ -114,7 +114,7 @@ width: 100%;
 background: transparent;
 border: none;
 font-family: 'ArcadeClassic', sans-serif;
-font-size: 35px; /* Default size for larger screens/desktop */
+font-size: 40px; /* Default size for larger screens/desktop */
 text-align: right;
 color: var(--text-color);
 outline: none;
@@ -130,7 +130,7 @@ box-sizing: border-box;
 .btn {
     height: 40px;
     font-family: 'ArcadeClassic', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     border: 3px solid var(--maroon-dark);
     cursor: pointer;
     position: relative;
@@ -177,5 +177,6 @@ box-sizing: border-box;
         font-size: 4vw;
     }
 }
+
 
 
