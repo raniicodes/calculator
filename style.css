@@ -110,17 +110,15 @@ body {
 
 
 #display {
-    width: 100%;
-    background: transparent;
-    border: none;
-    font-family: 'ArcadeClassic', sans-serif;
-    font-size: 30px; /* Default size for larger screens/desktop */
-    text-align: right;
-    color: var(--text-color);
-    outline: none;
-   
-    /* Added for overflow */
-    
+width: 100%;
+background: transparent;
+border: none;
+font-family: 'ArcadeClassic', sans-serif;
+font-size: 30px; /* Default size for larger screens/desktop */
+text-align: right;
+color: var(--text-color);
+outline: none;
+box-sizing: border-box; 
 }
 
 .keypad {
