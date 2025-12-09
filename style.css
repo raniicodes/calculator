@@ -114,11 +114,11 @@ body {
     background: transparent;
     border: none;
     font-family: 'ArcadeClassic', sans-serif;
-    font-size: 40px; /* Default size for larger screens/desktop */
+    font-size: 30px; /* Default size for larger screens/desktop */
     text-align: right;
     color: var(--text-color);
     outline: none;
-    letter-spacing: 2px;
+   
     /* Added for overflow */
     
 }
@@ -165,7 +165,7 @@ body {
 @media (max-width: 400px) {
     /* Reduce the display font size on small screens */
     #display {
-        font-size: 6vw; /* Scales relative to the viewport width (e.g., 8% of the screen width) */
+        font-size: 8vw; /* Scales relative to the viewport width (e.g., 8% of the screen width) */
     }
 
     /* Reduce the title font size to prevent it from overlapping on very small screens */
