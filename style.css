@@ -104,6 +104,8 @@ body {
     margin-bottom: 20px;
     padding: 10px;
     box-shadow: inset 4px 4px 0 0 #aab0a0;
+    /* CHANGE: Clipping content outside the container */
+    overflow: hidden; 
 }
 
 
@@ -118,8 +120,7 @@ body {
     outline: none;
     letter-spacing: 2px;
     /* Added for overflow */
-    overflow-x: auto; /* Allows horizontal scrolling for long numbers */
-    white-space: nowrap; /* Keeps the number on a single line */
+    
 }
 
 .keypad {
@@ -164,7 +165,7 @@ body {
 @media (max-width: 400px) {
     /* Reduce the display font size on small screens */
     #display {
-        font-size: 8vw; /* Scales relative to the viewport width (e.g., 8% of the screen width) */
+        font-size: 6vw; /* Scales relative to the viewport width (e.g., 8% of the screen width) */
     }
 
     /* Reduce the title font size to prevent it from overlapping on very small screens */
